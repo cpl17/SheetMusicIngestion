@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+    </head>
+    <body>
+        <h1>Upload an Image</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <!-- Input field for selecting a file Note: only accepting -->
+            <input type="file" name="image" accept="image/jpg image/png" required>
+            <br>
+            <input type="submit" value="Upload">
+        </form>
+        
+        <!-- <script src="" async defer></script> -->
+    </body>
+</html>
